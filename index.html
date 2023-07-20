@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <main class="main_container">
+      <!-- Sidenav -->
+      <section class="sidenav">
+        <div class="sidenav_wrapper">
+          <div class="sidenav_header_wrapper">
+            <i class="bx bx-code-alt"></i>
+            <h1 class="sidenav__header">End Dev</h1>
+          </div>
+          <div class="sidenav_list_wrapper">
+            <ul class="sidenav__list">
+              <li class="sidenav__list-items">
+                <i class="bx bx-grid-alt"></i>
+                <a href="#!" class="logo_name active">Dashboard</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bx-user"></i>
+                <a href="#!" class="logo_name">Profile</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bxs-truck"></i>
+                <a href="#!" class="logo_name">Sales</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bx-dollar"></i>
+                <a href="#!" class="logo_name">Earning</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bx-user-plus"></i>
+                <a href="#!" class="logo_name">Visitors</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bx-cart-alt"></i>
+                <a href="#!" class="logo_name">Order</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bx-heart"></i>
+                <a href="#!" class="logo_name">Saved</a>
+              </li>
+              <li class="sidenav__list-items">
+                <i class="bx bx-cog"></i>
+                <a href="#!" class="logo_name">Setting</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sidenav_footer_wrapper">
+            <h3 class="sidenav__footer">Login Out</h3>
+            <i class="bx bx-log-out"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="right_section">
+        <!-- Topbar -->
+        <div class="topbar_wrapper">
+          <div class="topbar__icon_wrapper">
+            <i class="bx bx-menu btn"></i>
+          </div>
+          <div class="topbar__search_wrapper">
+            <label for="search">
+              <span>
+                <i class="bx bx-search-alt-2"></i>
+              </span>
+            </label>
+            <input type="text" id="search" placeholder="Search here" />
+          </div>
+          <div class="topbar__avatar_wrapper">
+            <img src="images/gamer.png" width="30px" alt="user1" />
+          </div>
+        </div>
+
+        <!-- cards section -->
+        <div class="cards_wrapper">
+          <div class="card_1">
+            <div>
+              <h3>9.99</h3>
+              <p>Total order</p>
+            </div>
+            <div>
+              <i class="bx bx-cart-alt"></i>
+            </div>
+          </div>
+          <div class="card_2">
+            <div>
+              <h3>15.9</h3>
+              <p>Total sales</p>
+            </div>
+            <div>
+              <i class="bx bx-cart-add"></i>
+            </div>
+          </div>
+          <div class="card_3">
+            <div>
+              <h3>30.20</h3>
+              <p>Total projects</p>
+            </div>
+            <div>
+              <i class="bx bx-cart"></i>
+            </div>
+          </div>
+          <div class="card_4">
+            <div>
+              <h3>50.9</h3>
+              <p>Total return</p>
+            </div>
+            <div>
+              <i class="bx bxs-cart-download"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box__wrapper">
+          <!-- Latest projects -->
+          <div class="latest__project_wrapper">
+            <h4 class="heading__tertiary">Latest Projects</h4>
+            <table>
+              <thead>
+                <tr>
+                  <td>Project Name</td>
+                  <td>Hours</td>
+                  <td>Priority</td>
+                  <td>Members</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="project__name">Dropbox Design System</td>
+                  <td class="project__eta">34</td>
+                  <td class="project__priority">
+                    <span> Medium </span>
+                  </td>
+                  <td class="member__photos">
+                    <span>
+                      <img
+                        class="member__photo-1"
+                        src="images/member1.jfif"
+                        alt="membar1" />
+                    </span>
+                    <span>
+                      <img
+                        class="member__photo-2"
+                        src="images/member3.jfif"
+                        alt="membar3" />
+                    </span>
+                    <span>
+                      <img
+                        class="member__photo-3"
+                        src="images/member2.jfif"
+                        alt="membar2" />
+                    </span>
+                    <span class="membar__review_count">+5</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="project__name">Slack Team UI Design</td>
+                  <td class="project__eta">47</td>
+                  <td class="project__priority">
+                    <span> High </span>
+                  </td>
+                  <td class="member__photos">
+                    <span>
+                      <img
+                        class="member__photo-1"
+                        src="images/member2.jfif"
+                        alt="membar1" />
+                    </span>
+                    <span>
+                      <img
+                        class="member__photo-2"
+                        src="images/member4.jfif"
+                        alt="membar3" />
+                    </span>
+                    <span>
+                      <img
+                        class="member__photo-3"
+                        src="images/member1.jfif"
+                        alt="membar2" />
+                    </span>
+                    <span class="membar__review_count">+4</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="project__name">Github Satelite</td>
+                  <td class="project__eta">120</td>
+                  <td class="project__priority">
+                    <span> Lite </span>
+                  </td>
+                  <td class="member__photos">
+                    <span>
+                      <img
+                        class="member__photo-1"
+                        src="images/member1.jfif"
+                        alt="membar1" />
+                    </span>
+                    <span>
+                      <img
+                        class="member__photo-2"
+                        src="images/member3.jfif"
+                        alt="membar3" />
+                    </span>
+                    <span>
+                      <img
+                        class="member__photo-3"
+                        src="images/member2.jfif"
+                        alt="membar2" />
+                    </span>
+                    <span class="membar__review_count">+3</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- New customers -->
+          <div class="new__customer_wrapper">
+            <h4 class="heading__tertiary">New Customers</h4>
+            <table>
+              <tr>
+                <td>
+                  <img
+                    class="customer__image"
+                    src="images/member2.jfif"
+                    alt="customers1" />
+                </td>
+                <td class="customer__info">
+                  <p>Williams Harris</p>
+                  <p>williams@gmail.com</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img
+                    class="customer__image"
+                    src="images/member3.jfif"
+                    alt="customers2" />
+                </td>
+                <td class="customer__info">
+                  <p>Vanessa Tucker</p>
+                  <p>vanessa@gmail.com</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img
+                    class="customer__image"
+                    src="images/member1.jfif"
+                    alt="customers3" />
+                </td>
+                <td class="customer__info">
+                  <p>Sharon Lessma</p>
+                  <p>sharon@gmail.com</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
